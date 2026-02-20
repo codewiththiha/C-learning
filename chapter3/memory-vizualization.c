@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 int main() {
-
   int *single = (int *)malloc(sizeof(int));
   printf("Garbage vale%d\n", *single);
   *single = 22;
